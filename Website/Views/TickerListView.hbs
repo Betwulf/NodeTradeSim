@@ -1,0 +1,19 @@
+<script data-main="/ViewScripts/TickerListManager" src="/Scripts/require.js"></script>
+
+<h1>Ticker Lists</h1>
+
+
+
+<div>
+    <button class="bluebtn" data-bind="click: RefreshListofLists">Refresh</button>
+    <button class="bluebtn" onclick="parent.location = '/TickerListAdd'">Add New List</button>
+</div>
+
+<div data-bind="foreach: ListofLists">
+    <div>
+        <h3 data-bind="text: id"></h3>
+    </div>
+</div>
+
+
+<hr />

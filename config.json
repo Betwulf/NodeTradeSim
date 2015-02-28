@@ -1,0 +1,18 @@
+{
+    "singleQuotes": "Not Allowed",
+    "logappender": { "appenders": [ { "type": "console" }, { "type": "file", "filename": "yahoonode.log", "category": "yahoo" } ] },
+    "logcategory": "yahoo",
+    "loglevel": "DEBUG",
+    "cradleIP": "23.101.147.65",
+    "cradlePort": 5984,
+    "cradleLogin": "node",
+    "cradlePassword": "chickendessert",
+    "cradleDBTickerList": "tickerlist",
+    "cradleDBStrategy": "strategy",
+    "cradleDBTicker": "ticker",
+    "listenPort": 8080,
+    "websiteDirectory": "Website",
+    "websitePartialsDirectory": "Website\\Partials",
+    "websiteViewsDirectory": "Website\\Views",
+    "websiteDefaultFilename": "index.html"
+}
