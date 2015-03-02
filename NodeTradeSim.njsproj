@@ -41,6 +41,7 @@
     <Compile Include="Website\Controllers\DataTickerLookupController.js" />
     <Compile Include="Website\Controllers\HomeController.js" />
     <Compile Include="Website\Controllers\StrategiesController.js" />
+    <Compile Include="Website\Controllers\StrategiesAddController.js" />
     <Compile Include="Website\Controllers\TickerListAddController.js" />
     <Compile Include="Website\Controllers\TickerListController.js" />
     <Compile Include="Website\Scripts\bootstrap.js" />
@@ -80,12 +81,14 @@
     <Content Include="Website\CSS\qunit-1.14.0.css" />
     <Content Include="Website\CSS\Site.css" />
     <Content Include="Website\favicon.ico" />
+    <Content Include="Website\Images\check.png" />
     <Content Include="Website\Images\checkmark.gif" />
     <Content Include="Website\Scripts\jquery-1.10.2.min.map" />
     <Content Include="Website\Tests\ListManager\Index.html" />
     <Content Include="Website\Views\HomeView.hbs" />
     <Content Include="Website\Views\layout.hbs" />
     <Content Include="Website\Views\StrategiesView.hbs" />
+    <Content Include="Website\Views\StrategiesAddView.hbs" />
     <Content Include="Website\Views\TickerListAddView.hbs" />
     <Content Include="Website\Views\TickerListView.hbs" />
   </ItemGroup>

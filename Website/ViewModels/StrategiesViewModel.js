@@ -15,6 +15,7 @@
         
         // The List of Strategies
         self.ListofStrategies = ko.observableArray([]);
+        self.ListofTickerLists = ko.observableArray([]);
         
         // A strategy
         self.Strategy = {
@@ -38,10 +39,6 @@
             if (self.Strategy.StrategyName().length < 1) return false;
             if (self.Strategy.StrategyLayers().length < 1) return false;
             var innerArray = self.Strategy.StrategyLayers();
-            for (var i = 0; i < innerArray.length; i++) {
-                //alert(" Status: " + innerArray[i].valid() + " " + innerArray[i].newRow());
-                if ((innerArray[i].valid() || innerArray[i].newRow()) === false) return false;
-            }
             return true;
         });
         
@@ -54,10 +51,10 @@
         // Should Show Debug Field    
         self.ShowDebug = function () { return self.Debug() !== ""; }
         
-        // Take out strategies with no ticker symbol
+        // Take out strategies with no neuron counts
         self.RemoveEmptyItems = function () {
             self.Strategy.StrategyLayers.remove(function (item) {
-                return item.ticker() === "";
+                return item.neuroncount() === "";
             });
         }
         

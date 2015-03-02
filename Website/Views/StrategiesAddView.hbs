@@ -1,0 +1,42 @@
+<script data-main="/ViewScripts/StrategyManager" src="/Scripts/require.js"></script>
+<script data-main="/ViewScripts/TickerListManager" src="/Scripts/require.js"></script>
+
+<h1>Add A Strategy</h1>
+<div>
+    <div class="namedlabel">Strategy Name </div>
+    <input class="named" data-bind="value: Strategy.StrategyName" />
+</div>
+<div>
+    <div class="namedlabel">Strategy Ticker List </div>
+    <select class="named" data-bind="options: ListofTickerLists, optionsText: 'id'"></select>
+</div>
+
+<h1>Strategy Layers</h1>
+    <!-- Grid to edit items in Ticker List -->
+    <table class="table" data-bind='visible: Strategy.StrategyLayers().length > 0'>
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Activation Function</th>
+                <th>Neuron Count</th>
+                <th>Has Bias</th>
+                <th>Valid</th>
+                <th />
+            </tr>
+        </thead>
+        <tbody data-bind='foreach: Strategy.StrategyLayers'>
+            <tr>
+                <td><input class='tabledupper' disabled data-bind='value: position, uniqueName: true' /></td>
+                <td><input class='tabled' disabled data-bind='value: activationfunction' /></td>
+                <td><input class='tabled' data-bind='value: neuroncount' /></td>
+                <td><input class='tabled' data-bind='value: hasbias' /></td>
+                <td><span data-bind="css: { checkmark: valid }"></span></td>
+                <td><a href='#' data-bind='click: $root.removeTickerItem'>Delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="graybtn" data-bind='click: AddStrategyLayer'>Add StrategyLayer</button>
+    <button class="bluebtn" data-bind="click: SaveStrategy, enable: IsStrategySaveable">Save</button>
+
+
+    <hr />

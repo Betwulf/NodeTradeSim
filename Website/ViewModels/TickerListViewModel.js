@@ -116,7 +116,7 @@ var NewTickerListModel = function () {
                 self.AddTickerItem(); // Add a default item
             }
             // Check if valid characters in ticker
-            var pos = newValue.search(/^a-zA-Z\d\-/);
+            var pos = newValue.search(/[^a-zA-Z\d\-]/);
             if (pos !== -1) {
                 newItem.tickerdescription(self.tickerNotValidErrorMessage);
             }

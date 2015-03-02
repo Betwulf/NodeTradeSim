@@ -5,17 +5,16 @@ require(['/Scripts/RequireConfig.js'], function (common) {
         // Load initial data from Node.js Server
         $(document).ready(function () {
             var viewModel = new newViewModel();
+
             function loadData() {
                 $.getJSON("/Data/Strategy", function (data) {
-                    startVMCallback(data);
+                    ko.applyBindings(viewModel);
+                    viewModel.ListofStrategies(data.lists);
                 });
+                $.getJSON("/Data/TickerList", function (data) {
+                    viewModel.ListofTickerLists(data.lists);
+                });    
             }
-            
-            function startVMCallback(data) {
-                ko.applyBindings(viewModel);
-                viewModel.ListofStrategies(data.lists);
-            };
-            
             loadData();
         });
     });
