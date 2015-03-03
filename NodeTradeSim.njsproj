@@ -81,6 +81,7 @@
     <Content Include="Website\CSS\qunit-1.14.0.css" />
     <Content Include="Website\CSS\Site.css" />
     <Content Include="Website\favicon.ico" />
+    <Content Include="Website\Images\background.jpg" />
     <Content Include="Website\Images\check.png" />
     <Content Include="Website\Images\checkmark.gif" />
     <Content Include="Website\Scripts\jquery-1.10.2.min.map" />

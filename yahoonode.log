@@ -4018,3 +4018,1125 @@ CouchError: not_found: no_db_file
   { id: 'goog',
     key: 'goog',
     value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:56:45.580] [INFO] yahoo - Starting NodeTradeSim...
+[2015-03-03 10:56:45.585] [INFO] yahoo - Written by John Placais, (C) 2015 - More than All Rights Reserved.
+[2015-03-03 10:56:45.655] [DEBUG] yahoo - Partials directory: C:\CodeTest\NodeTradeSim\Website\Partials
+[2015-03-03 10:56:45.656] [DEBUG] yahoo - Views directory: C:\CodeTest\NodeTradeSim\Website\Views
+[2015-03-03 10:56:45.656] [DEBUG] yahoo - look for controllers: C:\CodeTest\NodeTradeSim\Website\Controllers
+[2015-03-03 10:56:45.657] [INFO] yahoo - Loading DataStrategyController.js
+[2015-03-03 10:56:45.657] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataStrategyController.js
+[2015-03-03 10:56:45.665] [INFO] yahoo - Registering Controller: Data/Strategy
+[2015-03-03 10:56:45.666] [INFO] yahoo - Loading DataTickerListController.js
+[2015-03-03 10:56:45.666] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerListController.js
+[2015-03-03 10:56:45.669] [INFO] yahoo - Registering Controller: Data/TickerList
+[2015-03-03 10:56:45.669] [INFO] yahoo - Loading DataTickerLookupController.js
+[2015-03-03 10:56:45.669] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerLookupController.js
+[2015-03-03 10:56:45.853] [INFO] yahoo - Registering Controller: Data/TickerLookup
+[2015-03-03 10:56:45.854] [INFO] yahoo - Loading DataTickerPriceController.js
+[2015-03-03 10:56:45.854] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerPriceController.js
+[2015-03-03 10:56:45.856] [INFO] yahoo - Registering Controller: Data/TickerPrice
+[2015-03-03 10:56:45.856] [INFO] yahoo - Loading HomeController.js
+[2015-03-03 10:56:45.856] [DEBUG] yahoo - Controller path: ./Website/Controllers/HomeController.js
+[2015-03-03 10:56:45.857] [INFO] yahoo - Registering Controller: Home
+[2015-03-03 10:56:45.858] [INFO] yahoo - Loading StrategiesAddController.js
+[2015-03-03 10:56:45.858] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesAddController.js
+[2015-03-03 10:56:45.859] [INFO] yahoo - Registering Controller: StrategiesAdd
+[2015-03-03 10:56:45.860] [INFO] yahoo - Loading StrategiesController.js
+[2015-03-03 10:56:45.860] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesController.js
+[2015-03-03 10:56:45.861] [INFO] yahoo - Registering Controller: Strategies
+[2015-03-03 10:56:45.862] [INFO] yahoo - Loading TickerListAddController.js
+[2015-03-03 10:56:45.862] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListAddController.js
+[2015-03-03 10:56:45.863] [INFO] yahoo - Registering Controller: TickerListAdd
+[2015-03-03 10:56:45.864] [INFO] yahoo - Loading TickerListController.js
+[2015-03-03 10:56:45.864] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListController.js
+[2015-03-03 10:56:45.865] [INFO] yahoo - Registering Controller: TickerList
+[2015-03-03 10:56:45.916] [INFO] yahoo - strategyDB Database exists.
+[2015-03-03 10:56:45.919] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:56:45.920] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:56:45.920] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:56:47.947] [DEBUG] yahoo - Request: /
+[2015-03-03 10:56:47.947] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:56:47.972] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:56:47.973] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:56:47.977] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:56:47.991] [DEBUG] yahoo - Request: /CSS/images/background.jpg
+[2015-03-03 10:56:47.992] [WARN] yahoo - unhandled: /CSS/images/background.jpg
+[2015-03-03 10:56:47.995] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:56:48.003] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:56:48.022] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:25.072] [INFO] yahoo - Starting NodeTradeSim...
+[2015-03-03 10:57:25.072] [INFO] yahoo - Written by John Placais, (C) 2015 - More than All Rights Reserved.
+[2015-03-03 10:57:25.134] [DEBUG] yahoo - Partials directory: C:\CodeTest\NodeTradeSim\Website\Partials
+[2015-03-03 10:57:25.134] [DEBUG] yahoo - Views directory: C:\CodeTest\NodeTradeSim\Website\Views
+[2015-03-03 10:57:25.134] [DEBUG] yahoo - look for controllers: C:\CodeTest\NodeTradeSim\Website\Controllers
+[2015-03-03 10:57:25.134] [INFO] yahoo - Loading DataStrategyController.js
+[2015-03-03 10:57:25.134] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataStrategyController.js
+[2015-03-03 10:57:25.134] [INFO] yahoo - Registering Controller: Data/Strategy
+[2015-03-03 10:57:25.134] [INFO] yahoo - Loading DataTickerListController.js
+[2015-03-03 10:57:25.134] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerListController.js
+[2015-03-03 10:57:25.150] [INFO] yahoo - Registering Controller: Data/TickerList
+[2015-03-03 10:57:25.150] [INFO] yahoo - Loading DataTickerLookupController.js
+[2015-03-03 10:57:25.150] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerLookupController.js
+[2015-03-03 10:57:25.290] [INFO] yahoo - Registering Controller: Data/TickerLookup
+[2015-03-03 10:57:25.290] [INFO] yahoo - Loading DataTickerPriceController.js
+[2015-03-03 10:57:25.290] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerPriceController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: Data/TickerPrice
+[2015-03-03 10:57:25.306] [INFO] yahoo - Loading HomeController.js
+[2015-03-03 10:57:25.306] [DEBUG] yahoo - Controller path: ./Website/Controllers/HomeController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: Home
+[2015-03-03 10:57:25.306] [INFO] yahoo - Loading StrategiesAddController.js
+[2015-03-03 10:57:25.306] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesAddController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: StrategiesAdd
+[2015-03-03 10:57:25.306] [INFO] yahoo - Loading StrategiesController.js
+[2015-03-03 10:57:25.306] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: Strategies
+[2015-03-03 10:57:25.306] [INFO] yahoo - Loading TickerListAddController.js
+[2015-03-03 10:57:25.306] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListAddController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: TickerListAdd
+[2015-03-03 10:57:25.306] [INFO] yahoo - Loading TickerListController.js
+[2015-03-03 10:57:25.306] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListController.js
+[2015-03-03 10:57:25.306] [INFO] yahoo - Registering Controller: TickerList
+[2015-03-03 10:57:25.353] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:57:25.368] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:57:25.384] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 10:57:25.400] [INFO] yahoo - strategyDB Database exists.
+[2015-03-03 10:57:26.911] [DEBUG] yahoo - Request: /
+[2015-03-03 10:57:26.911] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:57:26.936] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:26.937] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:26.938] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:26.955] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 10:57:26.960] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:57:26.995] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 10:57:26.996] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:27.013] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:41.449] [DEBUG] yahoo - Request: /
+[2015-03-03 10:57:41.449] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:57:41.470] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:41.471] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:41.472] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:41.484] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 10:57:41.488] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:57:41.519] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 10:57:41.523] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:41.542] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:50.408] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:57:50.410] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:57:50.449] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:50.450] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:50.451] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:50.514] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:57:50.550] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:50.561] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:57:50.563] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:50.565] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:57:50.565] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:57:50.587] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:57:50.615] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:57:50.736] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:57:51.926] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 10:57:51.936] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 10:57:51.946] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:51.947] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:51.948] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:51.999] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 10:57:52.018] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:52.032] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 10:57:52.037] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:52.038] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:57:52.038] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:57:52.072] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:57:52.100] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 10:57:52.102] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:57:52.218] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:57:52.234] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 10:57:54.054] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:57:54.055] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:57:54.064] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:54.064] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:54.065] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:54.109] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:57:54.141] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:54.150] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:57:54.153] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:57:54.153] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:57:54.156] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:54.165] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:57:54.176] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:57:54.319] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:57:55.255] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 10:57:55.255] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 10:57:55.265] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:55.265] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:55.266] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:55.309] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 10:57:55.345] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:55.353] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 10:57:55.356] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:57:55.356] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:57:55.359] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:55.368] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:57:55.378] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 10:57:55.380] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:57:55.519] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:57:55.519] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 10:57:56.505] [DEBUG] yahoo - Request: /
+[2015-03-03 10:57:56.506] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:57:56.515] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:56.516] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:56.517] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:56.567] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:57:56.594] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:56.607] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:58.554] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:57:58.555] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:57:58.564] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:57:58.565] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:57:58.565] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:57:58.609] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:57:58.644] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:57:58.652] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:57:58.655] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:57:58.655] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:57:58.658] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:57:58.667] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:57:58.677] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:57:58.788] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:17.650] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:58:17.650] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:58:17.675] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:17.675] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:17.676] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:17.690] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 10:58:17.693] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:58:17.724] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 10:58:17.725] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:17.754] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:58:17.757] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:17.758] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:17.760] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:17.779] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:17.789] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:17.903] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:24.997] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:58:24.998] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:58:25.019] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:25.020] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:25.027] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:25.084] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:58:25.118] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:25.126] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:58:25.129] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:25.129] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:25.132] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:25.141] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:25.151] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:25.259] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:26.343] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 10:58:26.344] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 10:58:26.353] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:26.354] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:26.355] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:26.398] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 10:58:26.414] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:26.440] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 10:58:26.443] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:26.444] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:26.446] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:26.455] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:26.466] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 10:58:26.467] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:26.576] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 10:58:26.605] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:27.717] [DEBUG] yahoo - Request: /
+[2015-03-03 10:58:27.718] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:58:27.728] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:27.728] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:27.729] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:27.758] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:58:27.800] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:27.815] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:29.912] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:58:29.913] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:58:29.921] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:29.922] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:29.923] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:29.966] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:58:29.996] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:30.005] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:58:30.008] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:30.009] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:30.010] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:30.019] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:30.029] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:30.141] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:57.970] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:58:57.970] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:58:57.984] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:57.984] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:57.985] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:57.998] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 10:58:58.030] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:58:58.031] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 10:58:58.039] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:58.047] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:58:58.077] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:58.078] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:58.079] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:58.088] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:58.098] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:58.207] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:58:59.526] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:58:59.527] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:58:59.535] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:58:59.536] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:58:59.537] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:58:59.579] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:58:59.593] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:58:59.616] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:58:59.619] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:58:59.620] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:58:59.621] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:58:59.631] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:58:59.640] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:58:59.776] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:59:00.356] [DEBUG] yahoo - Request: /
+[2015-03-03 10:59:00.359] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:59:00.368] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:59:00.369] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:59:00.373] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:59:00.415] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:59:00.447] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:59:00.460] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:59:01.988] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 10:59:01.992] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 10:59:02.002] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:59:02.003] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:59:02.003] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:59:02.046] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 10:59:02.060] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:59:02.081] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 10:59:02.084] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:59:02.085] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:59:02.087] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:59:02.097] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:59:02.107] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:59:02.240] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:59:03.026] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 10:59:03.027] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 10:59:03.036] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:59:03.036] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:59:03.037] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:59:03.079] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 10:59:03.094] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:59:03.117] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 10:59:03.120] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 10:59:03.121] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 10:59:03.122] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 10:59:03.132] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 10:59:03.142] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 10:59:03.143] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 10:59:03.258] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 10:59:03.258] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 10:59:04.243] [DEBUG] yahoo - Request: /
+[2015-03-03 10:59:04.246] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 10:59:04.269] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 10:59:04.270] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 10:59:04.270] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 10:59:04.312] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 10:59:04.325] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 10:59:04.354] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:10:11.788] [INFO] yahoo - Starting NodeTradeSim...
+[2015-03-03 11:10:11.788] [INFO] yahoo - Written by John Placais, (C) 2015 - More than All Rights Reserved.
+[2015-03-03 11:10:11.848] [DEBUG] yahoo - Partials directory: C:\CodeTest\NodeTradeSim\Website\Partials
+[2015-03-03 11:10:11.848] [DEBUG] yahoo - Views directory: C:\CodeTest\NodeTradeSim\Website\Views
+[2015-03-03 11:10:11.848] [DEBUG] yahoo - look for controllers: C:\CodeTest\NodeTradeSim\Website\Controllers
+[2015-03-03 11:10:11.858] [INFO] yahoo - Loading DataStrategyController.js
+[2015-03-03 11:10:11.858] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataStrategyController.js
+[2015-03-03 11:10:11.858] [INFO] yahoo - Registering Controller: Data/Strategy
+[2015-03-03 11:10:11.858] [INFO] yahoo - Loading DataTickerListController.js
+[2015-03-03 11:10:11.868] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerListController.js
+[2015-03-03 11:10:11.868] [INFO] yahoo - Registering Controller: Data/TickerList
+[2015-03-03 11:10:11.868] [INFO] yahoo - Loading DataTickerLookupController.js
+[2015-03-03 11:10:11.868] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerLookupController.js
+[2015-03-03 11:10:12.023] [INFO] yahoo - Registering Controller: Data/TickerLookup
+[2015-03-03 11:10:12.023] [INFO] yahoo - Loading DataTickerPriceController.js
+[2015-03-03 11:10:12.023] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerPriceController.js
+[2015-03-03 11:10:12.023] [INFO] yahoo - Registering Controller: Data/TickerPrice
+[2015-03-03 11:10:12.023] [INFO] yahoo - Loading HomeController.js
+[2015-03-03 11:10:12.023] [DEBUG] yahoo - Controller path: ./Website/Controllers/HomeController.js
+[2015-03-03 11:10:12.023] [INFO] yahoo - Registering Controller: Home
+[2015-03-03 11:10:12.033] [INFO] yahoo - Loading StrategiesAddController.js
+[2015-03-03 11:10:12.033] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesAddController.js
+[2015-03-03 11:10:12.033] [INFO] yahoo - Registering Controller: StrategiesAdd
+[2015-03-03 11:10:12.033] [INFO] yahoo - Loading StrategiesController.js
+[2015-03-03 11:10:12.033] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesController.js
+[2015-03-03 11:10:12.033] [INFO] yahoo - Registering Controller: Strategies
+[2015-03-03 11:10:12.033] [INFO] yahoo - Loading TickerListAddController.js
+[2015-03-03 11:10:12.033] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListAddController.js
+[2015-03-03 11:10:12.033] [INFO] yahoo - Registering Controller: TickerListAdd
+[2015-03-03 11:10:12.033] [INFO] yahoo - Loading TickerListController.js
+[2015-03-03 11:10:12.033] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListController.js
+[2015-03-03 11:10:12.033] [INFO] yahoo - Registering Controller: TickerList
+[2015-03-03 11:10:12.093] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:10:12.133] [INFO] yahoo - strategyDB Database exists.
+[2015-03-03 11:10:12.143] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:10:12.143] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:10:16.537] [DEBUG] yahoo - Request: /
+[2015-03-03 11:10:16.537] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:10:16.559] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:10:16.560] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:10:16.561] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:10:16.579] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:10:16.583] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:10:16.649] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:10:16.650] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:10:16.667] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:10:59.558] [DEBUG] yahoo - Request: /
+[2015-03-03 11:10:59.558] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:10:59.574] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:10:59.575] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:10:59.576] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:10:59.591] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:10:59.594] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:10:59.628] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:10:59.638] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:10:59.652] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:11:20.391] [DEBUG] yahoo - Request: /
+[2015-03-03 11:11:20.391] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:11:20.401] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:11:20.402] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:11:20.402] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:11:20.414] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:11:20.418] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:11:20.461] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:11:20.462] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:11:20.500] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:11:28.401] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:11:28.402] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:11:28.415] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:11:28.416] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:11:28.417] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:11:28.434] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:11:28.480] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:11:28.503] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:11:28.507] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:11:28.507] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:11:28.508] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:11:28.521] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:11:28.544] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:11:28.664] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:11:29.966] [DEBUG] yahoo - Request: /
+[2015-03-03 11:11:29.966] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:11:29.977] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:11:29.977] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:11:29.978] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:11:30.021] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:11:30.055] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:11:30.067] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:32.145] [DEBUG] yahoo - Request: /
+[2015-03-03 11:12:32.146] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:12:32.155] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:32.156] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:32.157] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:32.172] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:12:32.175] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:12:32.226] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:12:32.236] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:32.263] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:34.953] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:12:34.960] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:12:34.991] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:34.992] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:34.992] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:35.041] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:12:35.060] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:35.069] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:12:35.073] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:12:35.073] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:12:35.075] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:35.100] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:12:35.128] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:12:35.249] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:12:35.830] [DEBUG] yahoo - Request: /
+[2015-03-03 11:12:35.830] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:12:35.852] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:35.853] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:35.854] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:35.901] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:12:35.932] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:35.946] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:37.531] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:12:37.532] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:12:37.541] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:37.542] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:37.543] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:37.601] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:12:37.617] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:37.625] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:12:37.628] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:12:37.629] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:12:37.630] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:37.640] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:12:37.664] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:12:37.784] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:12:38.098] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 11:12:38.098] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 11:12:38.108] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:38.109] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:38.109] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:38.168] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 11:12:38.182] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:38.190] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 11:12:38.193] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:12:38.193] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:12:38.196] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:38.205] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:12:38.215] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 11:12:38.217] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:12:38.313] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 11:12:38.332] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:12:39.442] [DEBUG] yahoo - Request: /
+[2015-03-03 11:12:39.442] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:12:39.458] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:39.459] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:39.460] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:39.482] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:12:39.529] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:39.552] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:41.858] [DEBUG] yahoo - Request: /
+[2015-03-03 11:12:41.859] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:12:41.873] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:41.874] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:41.875] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:41.918] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:12:41.934] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:41.963] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:43.329] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:12:43.330] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:12:43.340] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:43.341] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:43.341] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:43.398] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:12:43.413] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:43.421] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:12:43.424] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:12:43.424] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:12:43.426] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:43.436] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:12:43.447] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:12:43.566] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:12:44.225] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 11:12:44.226] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 11:12:44.240] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:44.240] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:44.241] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:44.284] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 11:12:44.317] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:44.325] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 11:12:44.328] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:12:44.328] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:12:44.330] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:12:44.339] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:12:44.350] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 11:12:44.351] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:12:44.461] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 11:12:44.490] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:12:45.027] [DEBUG] yahoo - Request: /
+[2015-03-03 11:12:45.027] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:12:45.040] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:12:45.041] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:12:45.042] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:12:45.084] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:12:45.116] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:12:45.130] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:07.315] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:07.315] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:07.329] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:07.329] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:07.330] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:07.393] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:20:07.395] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:07.405] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:07.427] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:14.802] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:14.802] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:14.818] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:14.818] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:14.819] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:14.867] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:20:14.868] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:14.888] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:14.912] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:16.340] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:20:16.341] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:20:16.350] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:16.351] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:16.352] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:16.399] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:20:16.431] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:16.440] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:20:16.443] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:16.444] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:16.445] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:16.455] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:16.478] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:16.581] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:20:17.053] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 11:20:17.054] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 11:20:17.063] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:17.064] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:17.065] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:17.081] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 11:20:17.127] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:17.149] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 11:20:17.153] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:17.153] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:17.154] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:17.165] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:17.186] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 11:20:17.187] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:17.307] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:20:17.309] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 11:20:17.644] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:17.645] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:17.653] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:17.654] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:17.658] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:17.702] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:17.735] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:17.748] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:18.432] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:18.432] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:18.447] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:18.447] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:18.448] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:18.489] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:20:18.490] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:18.506] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:18.535] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:26.637] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:26.637] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:26.647] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:26.647] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:26.647] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:26.667] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:20:27.087] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:27.466] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:27.481] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:31.062] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:20:31.062] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:20:31.074] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:31.074] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:31.075] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:31.096] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:20:31.158] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:31.168] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:20:31.171] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:31.172] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:31.173] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:31.196] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:31.220] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:31.371] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:20:34.095] [DEBUG] yahoo - Request: /Strategies
+[2015-03-03 11:20:34.095] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\StrategiesView
+[2015-03-03 11:20:34.105] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:34.106] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:34.107] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:34.152] [DEBUG] yahoo - Request: /ViewScripts/StrategyManager.js
+[2015-03-03 11:20:34.169] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:34.178] [DEBUG] yahoo - Request: /ViewModels/StrategiesViewModel.js
+[2015-03-03 11:20:34.184] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:34.185] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:34.186] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:34.197] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:34.225] [DEBUG] yahoo - Request: /Data/Strategy
+[2015-03-03 11:20:34.227] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:34.341] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'First',
+    key: 'First',
+    value: { rev: '1-6767118de101d0c8e506d3fac95cb2ae' } },
+  { id: 'Test',
+    key: 'Test',
+    value: { rev: '1-41fce6245fdd691a735e71ec01cd2f07' } } ]
+[2015-03-03 11:20:34.341] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:20:36.596] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:36.597] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:36.606] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:36.607] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:36.608] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:36.650] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:36.686] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:36.700] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:38.068] [DEBUG] yahoo - Request: /
+[2015-03-03 11:20:38.078] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:20:38.087] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:38.095] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:38.096] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:38.114] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:20:38.164] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:38.181] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:39.532] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:20:39.544] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:20:39.554] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:39.554] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:39.555] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:39.599] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:20:39.631] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:39.639] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:20:39.642] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:39.643] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:39.644] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:39.654] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:39.677] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:39.784] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:20:41.146] [DEBUG] yahoo - Request: /TickerListAdd
+[2015-03-03 11:20:41.146] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListAddView
+[2015-03-03 11:20:41.157] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:20:41.158] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:20:41.159] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:20:41.179] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:20:41.219] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:20:41.245] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:20:41.248] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:20:41.249] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:20:41.250] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:20:41.260] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:20:41.283] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:20:41.393] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:24:26.419] [INFO] yahoo - Starting NodeTradeSim...
+[2015-03-03 11:24:26.422] [INFO] yahoo - Written by John Placais, (C) 2015 - More than All Rights Reserved.
+[2015-03-03 11:24:26.484] [DEBUG] yahoo - Partials directory: C:\CodeTest\NodeTradeSim\Website\Partials
+[2015-03-03 11:24:26.485] [DEBUG] yahoo - Views directory: C:\CodeTest\NodeTradeSim\Website\Views
+[2015-03-03 11:24:26.485] [DEBUG] yahoo - look for controllers: C:\CodeTest\NodeTradeSim\Website\Controllers
+[2015-03-03 11:24:26.486] [INFO] yahoo - Loading DataStrategyController.js
+[2015-03-03 11:24:26.486] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataStrategyController.js
+[2015-03-03 11:24:26.494] [INFO] yahoo - Registering Controller: Data/Strategy
+[2015-03-03 11:24:26.495] [INFO] yahoo - Loading DataTickerListController.js
+[2015-03-03 11:24:26.495] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerListController.js
+[2015-03-03 11:24:26.498] [INFO] yahoo - Registering Controller: Data/TickerList
+[2015-03-03 11:24:26.498] [INFO] yahoo - Loading DataTickerLookupController.js
+[2015-03-03 11:24:26.498] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerLookupController.js
+[2015-03-03 11:24:26.644] [INFO] yahoo - Registering Controller: Data/TickerLookup
+[2015-03-03 11:24:26.654] [INFO] yahoo - Loading DataTickerPriceController.js
+[2015-03-03 11:24:26.654] [DEBUG] yahoo - Controller path: ./Website/Controllers/DataTickerPriceController.js
+[2015-03-03 11:24:26.654] [INFO] yahoo - Registering Controller: Data/TickerPrice
+[2015-03-03 11:24:26.654] [INFO] yahoo - Loading HomeController.js
+[2015-03-03 11:24:26.654] [DEBUG] yahoo - Controller path: ./Website/Controllers/HomeController.js
+[2015-03-03 11:24:26.654] [INFO] yahoo - Registering Controller: Home
+[2015-03-03 11:24:26.654] [INFO] yahoo - Loading StrategiesAddController.js
+[2015-03-03 11:24:26.654] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesAddController.js
+[2015-03-03 11:24:26.654] [INFO] yahoo - Registering Controller: StrategiesAdd
+[2015-03-03 11:24:26.654] [INFO] yahoo - Loading StrategiesController.js
+[2015-03-03 11:24:26.654] [DEBUG] yahoo - Controller path: ./Website/Controllers/StrategiesController.js
+[2015-03-03 11:24:26.654] [INFO] yahoo - Registering Controller: Strategies
+[2015-03-03 11:24:26.654] [INFO] yahoo - Loading TickerListAddController.js
+[2015-03-03 11:24:26.654] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListAddController.js
+[2015-03-03 11:24:26.664] [INFO] yahoo - Registering Controller: TickerListAdd
+[2015-03-03 11:24:26.664] [INFO] yahoo - Loading TickerListController.js
+[2015-03-03 11:24:26.664] [DEBUG] yahoo - Controller path: ./Website/Controllers/TickerListController.js
+[2015-03-03 11:24:26.664] [INFO] yahoo - Registering Controller: TickerList
+[2015-03-03 11:24:26.724] [INFO] yahoo - strategyDB Database exists.
+[2015-03-03 11:24:26.734] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:24:26.734] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:24:26.734] [INFO] yahoo - tickerlist Database exists.
+[2015-03-03 11:24:27.194] [DEBUG] yahoo - Request: /TickerListAdd
+[2015-03-03 11:24:27.204] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListAddView
+[2015-03-03 11:24:27.226] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:24:27.227] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:24:27.228] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:24:27.243] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:24:27.247] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:24:27.279] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:24:27.280] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:24:27.303] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:24:27.307] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:24:27.308] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:24:27.308] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:24:27.321] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:24:27.333] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:24:27.461] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:24:29.390] [DEBUG] yahoo - Request: /
+[2015-03-03 11:24:29.390] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\HomeView
+[2015-03-03 11:24:29.401] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:24:29.402] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:24:29.403] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:24:29.446] [DEBUG] yahoo - Request: /ViewScripts/Home.js
+[2015-03-03 11:24:29.459] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:24:29.488] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:24:31.325] [DEBUG] yahoo - Request: /TickerList
+[2015-03-03 11:24:31.326] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListView
+[2015-03-03 11:24:31.336] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:24:31.340] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:24:31.341] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:24:31.384] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:24:31.414] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:24:31.423] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:24:31.426] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:24:31.427] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:24:31.428] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:24:31.438] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:24:31.447] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:24:31.551] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:24:32.690] [DEBUG] yahoo - Request: /TickerListAdd
+[2015-03-03 11:24:32.705] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListAddView
+[2015-03-03 11:24:32.715] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:24:32.716] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:24:32.717] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:24:32.733] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:24:32.792] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:24:32.800] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:24:32.803] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:24:32.803] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:24:32.806] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:24:32.815] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:24:32.825] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:24:32.924] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:24:43.875] [DEBUG] yahoo - Request: /Data/TickerLookup?ticker=goog
+[2015-03-03 11:24:43.876] [DEBUG] yahoo - JSON GET REQUEST:  /Data/TickerLookup?ticker=goog
+[2015-03-03 11:24:43.876] [INFO] yahoo - Getting ticker info for goog
+[2015-03-03 11:24:43.877] [DEBUG] yahoo - pos = -1
+[2015-03-03 11:24:43.878] [INFO] yahoo - Getting ticker info for GOOG
+[2015-03-03 11:24:53.971] [DEBUG] yahoo - Request: /Data/TickerLookup?ticker=axp
+[2015-03-03 11:24:53.972] [DEBUG] yahoo - JSON GET REQUEST:  /Data/TickerLookup?ticker=axp
+[2015-03-03 11:24:53.972] [INFO] yahoo - Getting ticker info for axp
+[2015-03-03 11:24:53.973] [DEBUG] yahoo - pos = -1
+[2015-03-03 11:24:53.974] [INFO] yahoo - Getting ticker info for AXP
+[2015-03-03 11:24:54.073] [DEBUG] yahoo - YQLP Resp:  { LastTradePriceOnly: '81.27',
+  Name: 'American Express',
+  Symbol: 'AXP',
+  StockExchange: 'NYSE' }
+[2015-03-03 11:24:54.085] [DEBUG] yahoo - Request: /Images/check.png
+[2015-03-03 11:24:58.174] [DEBUG] yahoo - YQLP Resp:  { LastTradePriceOnly: '568.32',
+  Name: 'Google Inc.',
+  Symbol: 'GOOG',
+  StockExchange: 'NasdaqNM' }
+[2015-03-03 11:43:18.674] [DEBUG] yahoo - Request: /TickerListAdd
+[2015-03-03 11:43:18.674] [DEBUG] yahoo - BuildPath: C:\CodeTest\NodeTradeSim\Website\Views\TickerListAddView
+[2015-03-03 11:43:18.690] [DEBUG] yahoo - Request: /CSS/bootstrap.css
+[2015-03-03 11:43:18.691] [DEBUG] yahoo - Request: /CSS/site.css
+[2015-03-03 11:43:18.692] [DEBUG] yahoo - Request: /Scripts/require.js
+[2015-03-03 11:43:18.708] [DEBUG] yahoo - Request: /images/background.jpg
+[2015-03-03 11:43:18.713] [DEBUG] yahoo - Request: /ViewScripts/TickerListManager.js
+[2015-03-03 11:43:18.764] [DEBUG] yahoo - Request: /favicon.ico
+[2015-03-03 11:43:18.765] [DEBUG] yahoo - Request: /Scripts/RequireConfig.js
+[2015-03-03 11:43:18.777] [DEBUG] yahoo - Request: /ViewModels/TickerListViewModel.js
+[2015-03-03 11:43:18.781] [DEBUG] yahoo - Request: /Scripts/knockout.validation.js
+[2015-03-03 11:43:18.782] [DEBUG] yahoo - Request: /ViewModels/Shared.js
+[2015-03-03 11:43:18.783] [DEBUG] yahoo - Request: /Scripts/jquery-1.10.2.js
+[2015-03-03 11:43:18.811] [DEBUG] yahoo - Request: /Scripts/knockout-3.0.0.js
+[2015-03-03 11:43:18.839] [DEBUG] yahoo - Request: /Data/TickerList
+[2015-03-03 11:43:18.952] [INFO] yahoo - Logging all lists from cradle
+ [ { id: 'Long',
+    key: 'Long',
+    value: { rev: '1-495de2f2068aa0bc7671642b71f4f9c0' } },
+  { id: 'cheese',
+    key: 'cheese',
+    value: { rev: '3-24f1b555c976a1c2009c4d2e33c8eb75' } },
+  { id: 'goog',
+    key: 'goog',
+    value: { rev: '1-6e15e54e224d9a315388e7658a16f186' } } ]
+[2015-03-03 11:43:23.160] [DEBUG] yahoo - Request: /Data/TickerLookup?ticker=a
+[2015-03-03 11:43:23.161] [DEBUG] yahoo - JSON GET REQUEST:  /Data/TickerLookup?ticker=a
+[2015-03-03 11:43:23.162] [INFO] yahoo - Getting ticker info for a
+[2015-03-03 11:43:23.162] [DEBUG] yahoo - pos = -1
+[2015-03-03 11:43:23.163] [INFO] yahoo - Getting ticker info for A
+[2015-03-03 11:43:23.285] [DEBUG] yahoo - YQLP Resp:  { LastTradePriceOnly: '42.36',
+  Name: 'Agilent Technolog',
+  Symbol: 'A',
+  StockExchange: 'NYSE' }
+[2015-03-03 11:43:23.290] [DEBUG] yahoo - Request: /Images/check.png
