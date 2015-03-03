@@ -7,9 +7,14 @@
     <input class="named" data-bind="value: Strategy.StrategyName" />
 </div>
 <div>
-    <div class="namedlabel">Strategy Ticker List </div>
-    <select class="named" data-bind="options: ListofTickerLists, optionsText: 'id'"></select>
+    <div class="namedlabel">Strategy Training Ticker List </div>
+    <select class="named" data-bind="options: ListofTickerLists, optionsText: 'id', value: Strategy.StrategyTrainTickerList"></select>
 </div>
+<div>
+    <div class="namedlabel">Strategy Real Ticker List </div>
+    <select class="named" data-bind="options: ListofTickerLists, optionsText: 'id', value: Strategy.StrategyRealTickerList"></select>
+</div>
+
 
 <h1>Strategy Layers</h1>
     <!-- Grid to edit items in Ticker List -->

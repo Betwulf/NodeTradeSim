@@ -20,6 +20,8 @@
         // A strategy
         self.Strategy = {
             StrategyName: ko.observable().extend({ required: true }),
+            StrategyTrainTickerList: ko.observable().extend({ required: true }),
+            StrategyRealTickerList: ko.observable().extend({ required: true }),
             StrategyLayers: ko.observableArray([]),
             id: function () { }
         };
