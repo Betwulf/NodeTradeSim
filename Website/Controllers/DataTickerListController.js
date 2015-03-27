@@ -39,6 +39,22 @@ function Register(expressapp, websiteDirectory) {
         });
     })
     
+    
+    // accept the GET request with ID
+    expressapp.get('/' + thisname + '/:id', function (req, res) {
+        var tickerID = req.params.id;
+        listDB.get(tickerID, function (err, data) {
+            if (err) {
+                log.error("Error getting all Lists with cradle.", err);
+                return res.send(400);
+            } else {
+                log.info('Logging all lists from cradle\n', data);
+                var jsonResult = new models.NewListofTickerLists(tickerID);
+                jsonResult.lists = data;
+                return res.send(jsonResult);
+            }
+        });
+    })
 
     
     // accept POST request
