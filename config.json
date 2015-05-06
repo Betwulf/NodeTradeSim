@@ -3,7 +3,7 @@
     "logappender": { "appenders": [ { "type": "console" }, { "type": "file", "filename": "yahoonode.log", "category": "yahoo" } ] },
     "logcategory": "yahoo",
     "loglevel": "DEBUG",
-    "cradleIP": "23.101.147.65",
+    "cradleIP": "104.209.131.92",
     "cradlePort": 5984,
     "cradleLogin": "node",
     "cradlePassword": "chickendessert",

@@ -29,7 +29,7 @@ function Register(expressapp, websiteDirectory) {
         listDB.all(function (err, data) {
             if (err) {
                 log.error("Error getting all Lists with cradle.", err);
-                return res.send(400);
+                return res.sendStatus(400);
             } else {
                 log.info('Logging all lists from cradle\n', data);
                 var jsonResult = new models.NewListofTickerLists('All Lists');
@@ -46,7 +46,7 @@ function Register(expressapp, websiteDirectory) {
         listDB.get(tickerID, function (err, data) {
             if (err) {
                 log.error("Error getting all Lists with cradle.", err);
-                return res.send(400);
+                return res.sendStatus(400);
             } else {
                 log.info('Logging all lists from cradle\n', data);
                 var jsonResult = new models.NewListofTickerLists(tickerID);
