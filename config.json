@@ -10,7 +10,7 @@
     "cradleDBTickerList": "tickerlist",
     "cradleDBStrategy": "strategy",
     "cradleDBTicker": "ticker",
-    "listenPort": 8080,
+    "listenPort": 80,
     "websiteDirectory": "Website",
     "websitePartialsDirectory": "Website\\Partials",
     "websiteViewsDirectory": "Website\\Views",
