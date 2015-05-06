@@ -14,5 +14,6 @@
     "websiteDirectory": "Website",
     "websitePartialsDirectory": "Website\\Partials",
     "websiteViewsDirectory": "Website\\Views",
-    "websiteDefaultFilename": "index.html"
+    "websiteDefaultFilename": "index.html",
+    "appInsightsKey":  "a7c500e7 - e690 - 4afa - 86ac - 12af066ab31b"
 }

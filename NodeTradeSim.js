@@ -8,6 +8,10 @@ var express = require('express');
 var hbs = require('hbs');
 var db = require('./NodeTradeSimDatabase');
 var bodyParser = require('body-parser');
+var appInsights = require("applicationinsights");
+appInsights.setup(config.appInsightsKey).start();
+
+
 
 
 // write to log using log4js
