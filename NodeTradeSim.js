@@ -75,9 +75,11 @@ try {
     
     // Begin Listening
     appInsights.client.trackEvent("server start");// track system startup event 
-    expressapp.listen(config.listenPort);
 } catch (err) {
     log.error('Main listen loop crash', err);
 }
 
+
+
+module.exports = expressapp;
 
