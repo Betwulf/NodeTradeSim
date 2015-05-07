@@ -90,7 +90,7 @@ var NewTickerListModel = function () {
     // Gets an updated list of Ticker Lists
     self.RefreshListofLists = function () {
         $.getJSON("/Data/TickerList", function (data) {
-            self.List(data.lists);
+            self.ListOfTickers(data.lists);
         });
     }
 
