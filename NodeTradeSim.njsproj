@@ -74,7 +74,6 @@
     <Compile Include="Website\ViewScripts\Home.js" />
     <Compile Include="Website\ViewScripts\StrategyManager.js" />
     <Compile Include="Website\ViewScripts\TickerListManager.js" />
-    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
     <Content Include="config.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -97,7 +96,6 @@
     <Content Include="Website\Views\TickerListView.hbs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\" />
     <Folder Include="Website\" />
     <Folder Include="Website\Controllers\" />
     <Folder Include="Website\CSS\" />
