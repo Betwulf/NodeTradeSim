@@ -32,6 +32,7 @@ log.info("Written by John Placais, (C) 2015 - More than All Rights Reserved.");
 var expresslog = function expressLog(req, res, next) {
     appInsights.client.trackRequest(req, res); // track for azure
     log.debug("Request: " + req.url);
+    log.debug("Request: " + req.url);
     next(); // Passing the request to the next handler in the stack.
 }
 
