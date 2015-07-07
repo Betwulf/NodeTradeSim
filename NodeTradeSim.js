@@ -26,6 +26,7 @@ var log = logger.LOG;
 //var now = new Date().toJSON(); // .slice(0,10)
 log.info("Starting NodeTradeSim...");
 log.info("Written by John Placais, (C) 2015 - More than All Rights Reserved.");
+log.info("Node.js Version: " + process.version);
 
 
 // create express logging function
