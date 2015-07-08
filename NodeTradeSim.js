@@ -79,6 +79,7 @@ try {
         
         log.warn("unhandled: " + req.url);
     });
+    log.info("really? didn't bother to get extend?");
     
     // Begin Listening
     appInsights.client.trackEvent("server start");// track system startup event 
